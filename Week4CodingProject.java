@@ -60,7 +60,7 @@ public class Week4CodingProject {
 		// then averages them together
 		double aveLetters = 0; // average number of letters for all names in names
 		// for (String name : names) {
-		// aveLetters += name.length(); //michael's example
+		// aveLetters += name.length(); 
 		// }
 
 		for (int ia = 0; ia < names.length; ia++) {
@@ -88,20 +88,20 @@ public class Week4CodingProject {
 		// Step 4
 		// names.length -1
 
-		// Step 5 //michaels example
-		System.out.println("\nStep 5");
-		int[] nameLengths = new int[names.length];
-		for (int ia = 0; ia < names.length; ia++) {
-			nameLengths[ia] = names[ia].length();
+		// Step 5 
+		System.out.println("\nStep 5"); 
+		int[] nameLengths = new int[names.length]; //creates array nameLengths
+		for (int ia = 0; ia < names.length; ia++) {//iterates thru array
+			nameLengths[ia] = names[ia].length();// adds length of elements to array
 		}
 
 		// Step 6
 		System.out.println("\nStep 6");
-		int sumNameLengths = 0;
-		for (int i = 0; i < nameLengths.length; i++) {
-			sumNameLengths += nameLengths[i];
+		int sumNameLengths = 0; //adds new variable
+		for (int i = 0; i < nameLengths.length; i++) {// loops thru nameLengths array
+			sumNameLengths += nameLengths[i];//adds sum of all elements of array to new variable
 		}
-		System.out.println(sumNameLengths);
+		System.out.println(sumNameLengths);// prints the new variable
 
 		
 
@@ -171,7 +171,7 @@ public class Week4CodingProject {
 //		return sum1;
 //	
 //	}
-		double averageOne = aveArray(a); // michael's example
+		double averageOne = aveArray(a); 
 		double averageTwo = aveArray(b); // calls from method above to solve this problem
 		return averageOne > averageTwo;
 
